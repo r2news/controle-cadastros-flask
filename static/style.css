@@ -1,0 +1,139 @@
+body {
+  background: #f6f6f6;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 32px auto;
+  background: #fff;
+  padding: 32px 24px 24px 24px;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+  color: #303030;
+  margin-top: 0;
+}
+
+.form-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  background: #f7faf7;
+  padding: 18px 14px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+  box-shadow: 0 1px 5px rgba(90, 170, 90, 0.04);
+}
+
+.input-group {
+  flex: 1 1 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #555;
+}
+
+.input-group input {
+  padding: 8px 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.input-group input:focus {
+  border: 1.5px solid #53bf66;
+}
+
+.btn {
+  padding: 9px 22px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-left: 6px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-success {
+  background: #53bf66;
+  color: #fff;
+}
+.btn-success:hover {
+  background: #39984b;
+}
+
+.btn-remove {
+  background: #e94d4d;
+  color: #fff;
+}
+.btn-remove:hover {
+  background: #b91c1c;
+}
+
+.btn-export {
+  background: #2066df;
+  color: #fff;
+}
+.btn-export:hover {
+  background: #1849a3;
+}
+
+.top-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 10px rgba(40, 40, 40, 0.05);
+  background: #fff;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 11px 10px;
+  border-bottom: 1px solid #e2e2e2;
+  text-align: left;
+}
+.custom-table th {
+  background: #f3f6fb;
+  color: #2066df;
+  font-weight: 600;
+}
+.custom-table tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 10px;
+  }
+  .form-box,
+  .top-actions,
+  .custom-table th,
+  .custom-table td {
+    font-size: 15px;
+  }
+  .form-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
