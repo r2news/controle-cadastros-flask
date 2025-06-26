@@ -46,7 +46,7 @@ Permite cadastrar, remover, listar e exportar os cadastros em CSV, com interface
 ## ✍️ Autor
 
 **Reinaldo Rodrigues**  
-[LinkedIn](https://www.linkedin.com/in/reinaldorodrigues/)  
+[LinkedIn](https://www.linkedin.com/in/reinaldorodriguesdeoliveira/)  
 [r2news.com.br](https://r2news.com.br)
 
 ---
